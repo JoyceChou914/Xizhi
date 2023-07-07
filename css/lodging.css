@@ -1,0 +1,90 @@
+
+/*全部頁面*/
+.Wrapper{
+    margin: 0 auto;
+    width: 1200px;
+    font-family: 'Klee One','Noto Sans TC', sans-serif;
+
+}
+
+/*汐止住宿------------------------*/
+
+.xizhi{
+    margin: 0 auto;
+}
+
+.master{
+    display: flex;
+    justify-content: space-around;
+}
+.master img{
+    width: 450px;
+    filter: saturate(300%);
+    border-radius: 30px;
+}
+
+
+.master01{
+    flex-direction: column;
+    /* flex-wrap: ; */
+    display: flex;
+    width: 40%;
+    line-height: 2;
+
+
+}
+
+.master02{
+    width: 0px;
+    flex-basis: 60px;
+    flex-grow: 1;
+}
+
+
+
+
+h1{
+    margin: 50px;
+    text-align: center;
+    background-color: #f5a2db;
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 1em;   
+
+}
+
+h1:hover{
+    background-color: #5F8FE8;
+
+}
+
+p{
+    line-height: 3;
+}
+
+
+
+
+
+/*-------手機裝置-----------*/
+@media screen and (max-width:414px ) {
+    .Wrapper{
+        width: auto;
+        
+    }
+
+    .master{
+        flex-wrap: wrap;
+    }
+
+    .master01{
+        width: 90vw;
+    }
+
+    .master img{
+        width: 100vw;
+    }
+}
+
+
+
